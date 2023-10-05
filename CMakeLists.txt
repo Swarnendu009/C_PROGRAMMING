@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(C_PROGRAMMING
 #        main.c
-        Fibonacci_Series.c)
+        Fibonacci_Series.c
+        ABC.c)

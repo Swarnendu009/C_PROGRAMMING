@@ -55,6 +55,12 @@ build CMakeFiles/C_PROGRAMMING.dir/Fibonacci_Series.c.obj: C_COMPILER__C_PROGRAM
   OBJECT_DIR = CMakeFiles\C_PROGRAMMING.dir
   OBJECT_FILE_DIR = CMakeFiles\C_PROGRAMMING.dir
 
+build CMakeFiles/C_PROGRAMMING.dir/ABC.c.obj: C_COMPILER__C_PROGRAMMING_unscanned_Debug C$:/Users/Swarnendu$ Ghosh/CLionProjects/C_PROGRAMMING/ABC.c || cmake_object_order_depends_target_C_PROGRAMMING
+  DEP_FILE = CMakeFiles\C_PROGRAMMING.dir\ABC.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_PROGRAMMING.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_PROGRAMMING.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C_PROGRAMMING
@@ -63,7 +69,7 @@ build CMakeFiles/C_PROGRAMMING.dir/Fibonacci_Series.c.obj: C_COMPILER__C_PROGRAM
 #############################################
 # Link the executable C_PROGRAMMING.exe
 
-build C_PROGRAMMING.exe: C_EXECUTABLE_LINKER__C_PROGRAMMING_Debug CMakeFiles/C_PROGRAMMING.dir/Fibonacci_Series.c.obj
+build C_PROGRAMMING.exe: C_EXECUTABLE_LINKER__C_PROGRAMMING_Debug CMakeFiles/C_PROGRAMMING.dir/Fibonacci_Series.c.obj CMakeFiles/C_PROGRAMMING.dir/ABC.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_PROGRAMMING.dir
