@@ -8,7 +8,7 @@ int main()
     {
         for(int j=0;j<temp1;j++)
         {
-            printf("*");
+            printf(" * ");
         }
         printf("\n");
         backup=temp2;
